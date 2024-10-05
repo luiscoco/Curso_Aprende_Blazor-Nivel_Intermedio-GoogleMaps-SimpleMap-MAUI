@@ -24,5 +24,15 @@ Then you have to select your Mobile in the **Android Local Devices** menu option
 
 ![image](https://github.com/user-attachments/assets/e9759283-fb5a-4d8b-b4bf-ecca94c5cf63)
 
+Then press the run button 
 
+![image](https://github.com/user-attachments/assets/f4d03226-af16-4a3f-b93b-2f70fc75065d)
+
+And see your MAUI application running in your Mobile and also in Visual Studio IDE
+
+![image](https://github.com/user-attachments/assets/1675cd66-e9aa-4e9c-955a-77230fbf6287)
+
+![image](https://github.com/user-attachments/assets/928b21be-122d-4245-8b1d-84a9ec67b32a)
+
+![image](https://github.com/user-attachments/assets/78a3b4b1-01f9-48f7-9587-790354e0fb77)
 
