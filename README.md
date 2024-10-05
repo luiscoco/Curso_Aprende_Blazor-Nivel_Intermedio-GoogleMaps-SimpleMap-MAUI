@@ -93,7 +93,7 @@ And we paste this code in the **index.html** component
 
 We create a new JavaScript file inside wwwroot folder
 
-
+![image](https://github.com/user-attachments/assets/4f5f3d90-b4a8-43a8-8e8e-bbe7fb1b1930)
 
 We type the JavaScript code in the **googlemaps.js** file: 
 
@@ -112,7 +112,7 @@ async function initMap() {
 initMap();
 ```
 
-## 4. We include the googlemaps.js file reference in the App.razor component
+## 4. We include the googlemaps.js file reference in the index.html component
 
 We include this line in the App.razor code for including the googlemaps.js file inthe Blazor Web Application
 
@@ -120,17 +120,11 @@ We include this line in the App.razor code for including the googlemaps.js file 
 <script src="googlemaps.js"></script>
 ```
 
-See the whole App.razor source code:
-
-```html
-
-```
-
 # 5. Create a new Razor Component to show the Google Map
 
 We right click on the Pages folder and create a new component **GoogleMaps.razor**
 
-
+![image](https://github.com/user-attachments/assets/db432937-06bb-492c-9dc1-815b0eec2898)
 
 This is the new component source code:
 
