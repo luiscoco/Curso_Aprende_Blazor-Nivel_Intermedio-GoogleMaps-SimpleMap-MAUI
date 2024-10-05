@@ -1,12 +1,14 @@
 # How to show a Google Map in a MAUI Blazor application
 
-In this sample we are going to create a Blazor Web Application with Visual Studio 2022 and .NET 9. We will create a Razor component to invoke the GoogleMap API to show a simple map
+In this sample we are going to create a MAUI Blazor Application with Visual Studio 2022
+
+We will create a Razor component to invoke the GoogleMap API to show a simple map
 
 **Note**: for getting more information about GoogleMaps API in JavaScript visit this example in the URL
 
 https://developers.google.com/maps/documentation/javascript/examples/map-simple
 
-## 1. We create a Blazor Web App with Visual Studio 2022 Community Edition
+## 1. We create a MAUI Blazor App with Visual Studio 2022 Community Edition
 
 Install Visual Studio 2022 Versión 17.12.0 Preview 2.0 Community Edition
 
@@ -14,21 +16,21 @@ Run Visual Studio and create a new project:
 
 ![image](https://github.com/user-attachments/assets/55158bf9-11cf-4e69-9e12-f6911cbae56b)
 
-We select **Blazor Web App** project template: 
+We select **MAUI Blazor** project template: 
 
-![image](https://github.com/user-attachments/assets/7c69aa07-a889-47a7-b97f-9dbec38e4a0a)
+
 
 We set the project name and location in the hard disk:
 
-![image](https://github.com/user-attachments/assets/ada3147b-5541-4b8c-9445-76b2654e733c)
+
 
 We leave all the default values for the following options and press the Create button
 
-![image](https://github.com/user-attachments/assets/84045a59-6a94-4de8-a85b-4da48cc5c4a6)
+
 
 See the project folders and files structure
 
-![image](https://github.com/user-attachments/assets/b5c3838a-1278-4765-8207-2bb4b9662239)
+
 
 ## 2. We create a GoogleMap API Key in the Google Cloud Console
 
