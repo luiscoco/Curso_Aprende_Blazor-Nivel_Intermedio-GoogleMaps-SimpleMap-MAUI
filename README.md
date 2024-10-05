@@ -20,6 +20,9 @@ adb devices
 
 ![image](https://github.com/user-attachments/assets/c61fb3f1-0559-4068-af74-77a69b343a64)
 
-Then you can run the application selecting your Mobile in the 
+Then you have to select your Mobile in the **Android Local Devices** menu option 
 
-![image](https://github.com/user-attachments/assets/fe10a7ee-f008-4f3e-886e-205b2e700ed3)
+![image](https://github.com/user-attachments/assets/e9759283-fb5a-4d8b-b4bf-ecca94c5cf63)
+
+
+
