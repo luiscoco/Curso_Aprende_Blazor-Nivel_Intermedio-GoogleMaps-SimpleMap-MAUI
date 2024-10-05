@@ -2,6 +2,12 @@
 
 ## Running the Blazor MAUI application in Windows Desktop
 
+![image](https://github.com/user-attachments/assets/6f5dd6ca-7f02-4899-ab15-a0d669ebcefc)
+
+![image](https://github.com/user-attachments/assets/af00085e-3df5-4344-a814-86236a0f98c9)
+
+![image](https://github.com/user-attachments/assets/a4dccf5d-5658-4755-96b4-7858820e0104)
+
 ## Running the Blazor MAUI application in your Mobile Device
 
 Prior to run your application in your Mobile you have to connect the Mobile to your Laptop with a USB wire
