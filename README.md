@@ -2,6 +2,8 @@
 
 ## Running the Blazor MAUI application in Windows Desktop
 
+![image](https://github.com/user-attachments/assets/01e6e98b-7d91-452e-a871-11c34edd4fd6)
+
 ![image](https://github.com/user-attachments/assets/6f5dd6ca-7f02-4899-ab15-a0d669ebcefc)
 
 ![image](https://github.com/user-attachments/assets/af00085e-3df5-4344-a814-86236a0f98c9)
