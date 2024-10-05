@@ -18,19 +18,19 @@ Run Visual Studio and create a new project:
 
 We select **MAUI Blazor** project template: 
 
-
+![image](https://github.com/user-attachments/assets/34bebd43-6c58-4c64-b7c5-5be010a79658)
 
 We set the project name and location in the hard disk:
 
-
+![image](https://github.com/user-attachments/assets/dddf0fd6-1812-4bf1-bdbc-ac8d31eb6c74)
 
 We leave all the default values for the following options and press the Create button
 
-
+![image](https://github.com/user-attachments/assets/97840e1c-2370-48b9-ac97-565e643c84a9)
 
 See the project folders and files structure
 
-
+![image](https://github.com/user-attachments/assets/0572c39c-562f-47d1-b28a-47f4d8c99a3d)
 
 ## 2. We create a GoogleMap API Key in the Google Cloud Console
 
@@ -54,8 +54,36 @@ We copy the API Key code from the GoogleCloud console
 
 ![image](https://github.com/user-attachments/assets/ccb46f74-2957-47b6-84bc-6ba495ba8d86)
 
-And we paste this code in the **App.razor** component
+And we paste this code in the **index.html** component
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>MAUI_GoogleMaps_SimpleMap</title>
+    <base href="/" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="MAUI_GoogleMaps_SimpleMap.styles.css" />
+    <link rel="icon" href="data:,">
+</head>
+
+<body>
+    <div class="status-bar-safe-area"></div>
+    <div id="app">Loading...</div>
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="_framework/blazor.webview.js" autostart="false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            defer></script>
+    <script src="googlemaps.js"></script>
+</body>
+
+</html>
 
 ## 3. We create the JavaScript function for invoking the GoogleMap API
 
