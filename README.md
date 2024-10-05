@@ -56,6 +56,9 @@ We copy the API Key code from the GoogleCloud console
 
 And we paste this code in the **index.html** component
 
+![image](https://github.com/user-attachments/assets/ccb3476e-65c9-4dd3-9509-985c2b3dfe39)
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -84,6 +87,7 @@ And we paste this code in the **index.html** component
 </body>
 
 </html>
+```
 
 ## 3. We create the JavaScript function for invoking the GoogleMap API
 
